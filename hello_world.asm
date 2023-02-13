@@ -5,6 +5,7 @@ section .text
     global _start
 
 _start:
+
     ; write string to stdout
     mov eax, 4      ; system call number (sys_write)
     mov ebx, 1      ; file descriptor (stdout)
