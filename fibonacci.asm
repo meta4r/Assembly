@@ -4,6 +4,7 @@ section .data
 section .bss
     fib resd 100   ; reserve 100 dwords for fibonacci series
 
+
 section .text
     global _start
 
