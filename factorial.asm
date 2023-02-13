@@ -7,6 +7,7 @@ section .bss
 section .text
     global _start
 
+
 _start:
     ; get number from user
     mov eax, [n]
