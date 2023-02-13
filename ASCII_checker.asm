@@ -1,7 +1,6 @@
 section .data
     c db 'A'   ; character to find ASCII value of
 
-
 section .text
     global _start
 
