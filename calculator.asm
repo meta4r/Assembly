@@ -14,6 +14,7 @@ stack_ptr resd 1
 section .text
 extern printf, scanf, getchar
 
+
 global _start
 
 _start:
