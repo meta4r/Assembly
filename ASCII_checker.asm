@@ -4,6 +4,7 @@ section .data
 section .text
     global _start
 
+
 _start:
     ; get character from user
     mov eax, [c]
