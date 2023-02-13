@@ -16,6 +16,7 @@ section .bss
 section .text
     global _start
 
+
 _start:
     ; initialize distances for start node
     mov ebx, startNode
