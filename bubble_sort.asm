@@ -5,7 +5,6 @@ section .data
 section .text
     global _start
 
-
 _start:
     ; call bubble sort
     call bubble_sort
